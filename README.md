@@ -1,4 +1,9 @@
 # Ultra-Fast-Lane-Detection
+
+## modify-dxg
+
+添加了torch2onnx.py用于将torch模型转成onnx模型。并使用生成的onnx模型实现了推理。
+
 PyTorch implementation of the paper "[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)".
 
 **\[July 18, 2022\] Updates: The new version of our method has been accepted by TPAMI 2022. Code is available [here](https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2)**.
